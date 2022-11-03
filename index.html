@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style></style>
+    <script>
+        // function greet(){
+        //     console.log("Hello World.");
+        // }
+        function initialize(){
+            num = 10;
+            console.log(num);
+        }
+        function addOne(){
+            num++;
+        }
+        function subtractOne(){
+            num--;
+        }
+    </script>
+</head>
+<body onload="initialize();">
+    <h1 id="numberout"></h1>
+    <hr />
+    <button onclick="addOne();"> Add</button>
+    <button onclick="subtractOne();">Subtract</button>
+</body>
+</html>
